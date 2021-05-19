@@ -8,21 +8,37 @@ body{
 h1{
   margin:0;
 }
-section{
-  display: flex;
+main{
+  height: 100vh;
+  display:flex;
+}
+div{
+  flex:1;
+  align-items: center;
+  justify-content: center;
 }
 .uno{
+  display: flex;
   background-color: #00ffff;
+  width: 20vh;
 }
 .dos{
+  display: flex;
   background-color: #00dddd;
+  width: 20vh;
 }
 .tres{
+  display: flex;
   background-color: #00bbbb;
+  width: 20vh;
 }
 .cuatro{
-  background-color: #009999
+  display: flex;
+  background-color: #009999;
+  width: 20vh;
 }
 .cinco{
+  display: flex;
   background-color: #007777;
+  width: 20vh;
 }
