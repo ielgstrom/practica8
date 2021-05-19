@@ -16,6 +16,7 @@ div{
   flex:1;
   align-items: center;
   justify-content: center;
+
 }
 .uno{
   display: flex;
@@ -55,4 +56,8 @@ div:hover{
 div:hover + div{
   background-color: white;
   color:black;
+}
+div:hover>p{
+  transition-duration: 0.5s;
+ transform: rotate(360deg);
 }
