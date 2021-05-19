@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  padding:0;
+}
+h1{
+  margin:0;
+}
+section{
+  display: flex;
+}
+.uno{
+  background-color: #00ffff;
+}
+.dos{
+  background-color: #00dddd;
+}
+.tres{
+  background-color: #00bbbb;
+}
+.cuatro{
+  background-color: #009999
+}
+.cinco{
+  background-color: #007777;
+}
