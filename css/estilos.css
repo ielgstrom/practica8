@@ -52,3 +52,7 @@ div:hover{
   background-color: black;
   color:white;
 }
+div:hover + div{
+  background-color: white;
+  color:black;
+}
