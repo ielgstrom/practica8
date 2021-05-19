@@ -21,24 +21,34 @@ div{
   display: flex;
   background-color: #00ffff;
   width: 20vh;
+  transition: all 0.5s;
 }
 .dos{
   display: flex;
   background-color: #00dddd;
   width: 20vh;
+  transition: all 0.5s;
 }
 .tres{
   display: flex;
   background-color: #00bbbb;
   width: 20vh;
+  transition: all 0.5s;
 }
 .cuatro{
   display: flex;
   background-color: #009999;
   width: 20vh;
+  transition: all 0.5s;
 }
 .cinco{
   display: flex;
   background-color: #007777;
   width: 20vh;
+  transition: all 0.5s;
+}
+
+div:hover{
+  background-color: black;
+  color:white;
 }
